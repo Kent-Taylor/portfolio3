@@ -1,0 +1,32 @@
+.portfolio-sidebar-list-wrapper {
+    .portfolio-item-thumb {
+        padding: 21px;
+
+        .portfolio-thumb_img img{
+            width: 100%;
+        }
+
+        .text-content{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            .title {
+                color: $offwhite;
+                font-size: 1.5em;
+            }
+
+            .action-icon {
+                cursor: pointer;
+                color: $offwhite;
+                font-size: 1.5em;
+                transition: 0.2s ease-in-out;
+
+                &:hover {
+                    color: $warning;
+                }
+                
+            }
+        }
+    }
+}

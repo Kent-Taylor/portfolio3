@@ -1,0 +1,34 @@
+.portfolio-form-wrapper {
+    @include base-grid();
+    grid-template-columns: 1fr;
+    padding: 42px;
+
+    @include input-element();
+    input {
+        margin-bottom: 0px;
+    }
+
+    .image-uploaders {
+        @include base-grid();
+        grid-template-columns: 200px 200px 200px;
+
+        .portfolio-manager-image-wrapper{
+            img {
+                width: 100%;
+                height: 120px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+
+            .image-removal-link {
+                display: flex;
+                justify-content: center;
+                a {
+                    font-weight: 900;
+                    color: $warning;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
