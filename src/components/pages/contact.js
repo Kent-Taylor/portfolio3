@@ -15,33 +15,27 @@ export default function() {
       />
       <div className="right-column">
         <div className="contact-bullet-points">
-            <div className="bullet-point-group">
-                <div className="icon">
-                <FontAwesomeIcon icon="phone"/>
-                </div>
-
-                <div className="text">
-                    801-427-7833
-                </div>
+          <div className="bullet-point-group">
+            <div className="icon">
+              <FontAwesomeIcon icon="phone" />
             </div>
-            <div className="bullet-point-group">
-                <div className="icon">
-                <FontAwesomeIcon icon="envelope"/>
-                </div>
 
-                <div className="text">
-                    kredfox4@gmail.com
-                </div>
+            <div className="text">801-427-7833</div>
+          </div>
+          <div className="bullet-point-group">
+            <div className="icon">
+              <FontAwesomeIcon icon="envelope" />
             </div>
-            <div className="bullet-point-group">
-                <div className="icon">
-                <FontAwesomeIcon icon="map-marked-alt"/>
-                </div>
 
-                <div className="text">
-                    Lehi, UT
-                </div>
+            <div className="text">kredfox4@gmail.com</div>
+          </div>
+          <div className="bullet-point-group">
+            <div className="icon">
+              <FontAwesomeIcon icon="map-marked-alt" />
             </div>
+
+            <div className="text">Lehi, UT</div>
+          </div>
         </div>
       </div>
     </div>
