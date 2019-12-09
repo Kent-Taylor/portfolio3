@@ -13,14 +13,10 @@ export default function() {
         }}
       />
       <div className="right-column">
-        Ever since I was a child, technology and computers were my passion! I
-        could never get enough new tech in my hands. I love making navigation
-        easier for the user, whether it’s an employee or a customer. As a full
-        stack developer, I put myself into the users shoes and implementing what
-        I find would make applications easier for them to go through. I’m well
-        organized, self efficient and I can produce a great value of user
-        interface. My goal is to help users have a smoother and more satisfying
-        experience.
+        I’ve always had a passion for technology and creating things. Front end
+        design, backend de- velopment- I create clean, powerful functions with
+        simple designs. I am passionate about user experience and proficient at
+        UI. My core compe- tency is utilizing technology for problem solving.
       </div>
     </div>
   );
