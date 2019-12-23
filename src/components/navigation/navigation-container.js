@@ -16,7 +16,8 @@ const NavigationComponent = props => {
   };
 
   const handleSignOut = () => {
-    axios.delete("https://api.devcamp.space/logout", { withCredentials: true})
+    axios
+      .delete("https://api.devcamp.space/logout", { withCredentials: true })
       .then(response => {
         if (response.status === 200) {
           props.history.push("/");
@@ -32,6 +33,10 @@ const NavigationComponent = props => {
   return (
     <div className="nav-wrapper">
       <div className="left-side">
+        <img
+          src="../../../static/assets/images/design.png"
+          className="design-image"
+        />
         <div className="nav-link-wrapper">
           <NavLink exact to="/" activeClassName="nav-link-active">
             Home
@@ -56,16 +61,19 @@ const NavigationComponent = props => {
           </NavLink>
         </div>
 
-        {props.loggedInStatus === "LOGGED_IN" ? (
-          dynamicLink("/portfolio-manager", "Portfolio Manager")
-        ) : null}
+        {props.loggedInStatus === "LOGGED_IN"
+          ? dynamicLink("/portfolio-manager", "Portfolio Manager")
+          : null}
       </div>
-
       <div className="right-side">
-        KENT TAYLOR
+        <img
+          src="../../../static/assets/images/profile_pic.png"
+          className="profile-picture-nav"
+        />
+        Kent Taylor
         {props.loggedInStatus === "LOGGED_IN" ? (
           <a onClick={handleSignOut}>
-          <FontAwesomeIcon icon="sign-out-alt"/>
+            <FontAwesomeIcon icon="sign-out-alt" />
           </a>
         ) : null}
       </div>

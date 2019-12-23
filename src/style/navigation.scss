@@ -1,49 +1,75 @@
 .nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // padding: 30px;
+  background-color: black;
+
+  .right-side {
+    color: white;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: #DFE7F2;
-
-    .right-side {
-      a {
-        margin-left: 15px;
-        cursor: pointer;
-        color: $teal;
-        transition: 0.5 ease-in-out;
-
-        &:hover {
-          color: $dark-teal;
-        }
-      }
-    }
-  
-    .left-side {
-      display: flex;
-    }
-  
-    .nav-link-wrapper {
-      height: 22px;
-      border-bottom: 1px solid transparent;
-      transition: 0.5s ease-in-out;
-      margin-right: 20px;
-      text-transform: uppercase;
-      font-size: 0.9rem;
-  
-      a {
-        color: $grey;
-        text-decoration: none;
-        &:hover {
-          color: black;
-        }
-      }
-  
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: black;
+    .profile-picture-nav {
+      width: 50%;
+      border-radius: 100px;
+      margin: 0px 15px 0px 6px;
+      transition: 0.5s;
+      cursor: pointer;
+      box-shadow: 6px 9px 11px 0px rgba(0, 0, 0, 0.51);
       &:hover {
-        border-bottom: 1px solid black;
+        box-shadow: none;
       }
-  
-      .nav-link-active {
-        border-bottom: 1px solid black;
-        color: black;
+    }
+    a {
+      margin-left: 15px;
+      cursor: pointer;
+      color: $teal;
+      transition: 0.5 ease-in-out;
+
+      &:hover {
+        color: $dark-teal;
       }
     }
   }
+
+  .portfolio-text {
+    color:blue;
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .left-side {
+    display: flex;
+    background-color: #dfe7f2;
+    padding: 39px 72% 30px 30px;
+  }
+
+  .nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    margin-right: 20px;
+    font-size: 0.9rem;
+
+    a {
+      color: $grey;
+      text-decoration: none;
+      &:hover {
+        color: black;
+      }
+    }
+
+    &:hover {
+      
+    }
+
+    .nav-link-active {
+      border-bottom: 1px solid black;
+      color: #505b6a;
+      font-size: 1.5em;
+      letter-spacing: 3px;
+    }
+  }
+}
