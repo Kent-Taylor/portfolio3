@@ -156,7 +156,7 @@ class Blog extends Component {
 
         {this.state.isLoading ? (
           <div className="content-loader">
-            <FontAwesomeIcon icon="spinner" spin />
+            <FontAwesomeIcon icon="circle-notch" spin />
           </div>
         ) : null}
       </div>

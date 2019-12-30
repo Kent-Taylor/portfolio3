@@ -33,10 +33,6 @@ const NavigationComponent = props => {
   return (
     <div className="nav-wrapper">
       <div className="left-side">
-        <img
-          src="../../../static/assets/images/design.png"
-          className="design-image"
-        />
         <div className="nav-link-wrapper">
           <NavLink exact to="/" activeClassName="nav-link-active">
             Home
@@ -66,6 +62,7 @@ const NavigationComponent = props => {
           : null}
       </div>
       <div className="right-side">
+        {/* <div className="chinese-symbol">變</div> */}
         <img
           src="../../../static/assets/images/profile_pic.png"
           className="profile-picture-nav"

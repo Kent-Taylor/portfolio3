@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   // padding: 30px;
-  background-color: black;
+  background-color: #3f4855;
 
   .right-side {
     color: white;
@@ -11,12 +11,12 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
-    background-color: black;
+    background-color: #3f4855;
     .profile-picture-nav {
       width: 50%;
       border-radius: 100px;
       margin: 0px 15px 0px 6px;
-      transition: 0.5s;
+      transition: 0.3s;
       cursor: pointer;
       box-shadow: 6px 9px 11px 0px rgba(0, 0, 0, 0.51);
       &:hover {
@@ -36,7 +36,7 @@
   }
 
   .portfolio-text {
-    color:blue;
+    color: blue;
     display: flex;
     align-self: flex-end;
   }
@@ -47,6 +47,10 @@
     padding: 39px 72% 30px 30px;
   }
 
+  .chinese-symbol {
+    font-size: 41px;
+  }
+
   .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
@@ -54,15 +58,18 @@
     font-size: 0.9rem;
 
     a {
-      color: $grey;
+      color: black;
       text-decoration: none;
+      font-weight: 600;
+      font-size: 1.3em;
+      transition: ease-in-out 0.2s;
       &:hover {
-        color: black;
+        color: #505b6a;
       }
     }
 
     &:hover {
-      
+      color: #505b6a;
     }
 
     .nav-link-active {
