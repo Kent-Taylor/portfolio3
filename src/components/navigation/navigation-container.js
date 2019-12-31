@@ -74,7 +74,7 @@ const NavigationComponent = props => {
           className="profile-picture-nav"
         />
         </Link>
-        Kent Taylor
+        <p>Kent Taylor</p>
         {props.loggedInStatus === "LOGGED_IN" ? (
           <a onClick={handleSignOut}>
             <FontAwesomeIcon icon="sign-out-alt" />
