@@ -80,3 +80,21 @@
     }
   }
 }
+
+.go-to-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #3f4855;
+  transition: ease-in-out 0.3s;
+  font-weight: 600;
+  width: 180px;
+  
+  &:hover {
+    color: #505b6a;
+    letter-spacing: 1px;
+  }
+}
+
+

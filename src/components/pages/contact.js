@@ -1,5 +1,6 @@
 import React from "react";
 import profile_pic from "../../../backgrounds/login.jpg";
+import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function() {
@@ -36,6 +37,15 @@ export default function() {
 
             <div className="text">Lehi, UT</div>
           </div>
+          <div className="bullet-point-group">
+            <a href="https://www.linkedin.com/in/kent-taylor-129282168/" className="icon">
+              <FontAwesomeIcon icon="id-card" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/kent-taylor-129282168/" className="text">Linkedin</a>
+          </div>
+
+
         </div>
       </div>
     </div>

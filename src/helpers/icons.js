@@ -6,7 +6,9 @@ import {
   faCircleNotch,
   faPlusCircle,
   faPhone,
+  faIdCard,
   faEnvelope,
+  
   faMapMarkedAlt,
   faLock
 } from "@fortawesome/free-solid-svg-icons";
@@ -17,6 +19,7 @@ const Icons = () => {
     faTrash,
     faSignOutAlt,
     faEdit,
+    faIdCard,
     faSpinner,
     faCircleNotch,
     faPlusCircle,

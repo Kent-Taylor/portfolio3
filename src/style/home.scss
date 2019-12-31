@@ -1,19 +1,23 @@
 .homepage-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-  
-    .filter-links {
-      display: flex;
-      justify-content: space-around;
-  
-      .btn {
-        width: 100%;
-        background-color: #505B6A;
-        transition: ease-in-out 0.3s;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  .filter-links {
+    display: flex;
+    justify-content: space-around;
+
+    .btn {
+      width: 100%;
+      background-color: #505b6a;
+      transition: ease-in-out 0.3s;
+
+      &:hover {
+        background-color: rgb(106, 120, 138);
       }
 
-      .btn:hover{
+      &:active {
         background-color: rgb(106, 120, 138);
       }
     }
   }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { withRouter } from "react-router";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const NavigationComponent = props => {
   const dynamicLink = (route, linkText) => {
@@ -57,16 +57,23 @@ const NavigationComponent = props => {
           </NavLink>
         </div>
 
+        <div className="nav-link-wrapper">
+          <NavLink to="/resume" activeClassName="nav-link-active">
+            Resume
+          </NavLink>
+        </div>
+
         {props.loggedInStatus === "LOGGED_IN"
           ? dynamicLink("/portfolio-manager", "Portfolio Manager")
           : null}
       </div>
       <div className="right-side">
-        {/* <div className="chinese-symbol">變</div> */}
+        <Link to="/about-me">
         <img
           src="../../../static/assets/images/profile_pic.png"
           className="profile-picture-nav"
         />
+        </Link>
         Kent Taylor
         {props.loggedInStatus === "LOGGED_IN" ? (
           <a onClick={handleSignOut}>
