@@ -21,3 +21,18 @@
     }
   }
 }
+
+//about page styles
+.content-page-wrapper {
+  background-color: #f5f6f7;
+
+}
+
+.content-page-wrapper > .left-column {
+  box-shadow: inset -30px -1px 33px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content-page-wrapper > .right-column p {
+  font-size: 20px;
+  text-align: center;
+}

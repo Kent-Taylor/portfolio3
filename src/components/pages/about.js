@@ -14,16 +14,19 @@ export default function() {
         }}
       />
       <div className="right-column">
-        <p>I’ve always had a passion for technology and creating things. Front end
-        design, backend de- velopment- I create clean, powerful functions with
-        simple designs. I am passionate about user experience and proficient at
-        UI. My core compe- tency is utilizing technology for problem solving.
+        <p>
+          "I’ve always had a passion for technology and creating things. Front
+          end design, backend development- I create clean, powerful functions
+          with simple designs. I am passionate about user experience and
+          proficient at UI. My core competency is utilizing technology for
+          problem solving."
+          <p>-Kent</p>
         </p>
+
         <Link to="/contact" className="go-to-contact">
-        go to Contact Info
+          go to Contact Info
         </Link>
       </div>
-      
     </div>
   );
 }

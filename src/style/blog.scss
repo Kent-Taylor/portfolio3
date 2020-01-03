@@ -1,8 +1,17 @@
 .blog-container {
+  color: #646c74;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
+  height: 100vh;
+  box-shadow: inset 0px 15px 33px 0px rgba(0, 0, 0, 0.75);
+  padding: 42px;
+
+  .blog-squares {
+    background-color: white;
+    margin-top: 15px;
+  }
 
   .admin-blog-wrapper {
     display: flex;
@@ -18,6 +27,7 @@
   .new-blog-link {
     position: fixed;
     right: 0;
+    background-color: #eaebee;
     bottom: 0;
 
     a {
@@ -27,6 +37,7 @@
       margin-right: 15px;
       margin-bottom: 15px;
       transition: 0.3s ease-in-out;
+      border: 1px solid black;
 
       &:hover {
         color: $dark-teal;
@@ -45,12 +56,15 @@
       transition: 0.3s ease-in-out;
 
       &:hover {
-        color: $dark-teal;
+        color: black;
       }
     }
 
     h1 {
       font-size: 1.5em;
+      background-color: #f5f6f7;
+      border-radius: 30px;
+      text-align: center;
     }
 
     .featured-image-wrapper {

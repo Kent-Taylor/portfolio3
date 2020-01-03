@@ -68,13 +68,14 @@ const NavigationComponent = props => {
           : null}
       </div>
       <div className="right-side">
+      <p>Kent Taylor</p>
         <Link to="/about-me">
         <img
           src="../../../static/assets/images/profile_pic.png"
           className="profile-picture-nav"
         />
         </Link>
-        <p>Kent Taylor</p>
+        
         {props.loggedInStatus === "LOGGED_IN" ? (
           <a onClick={handleSignOut}>
             <FontAwesomeIcon icon="sign-out-alt" />

@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // padding: 30px;
-  background-color: #3f4855;
+  margin: 0;
+  background-color: #dfe7f2;
 
   .right-side p {
     margin-right: 30px;
@@ -11,32 +11,37 @@
   }
 
   .right-side {
-    color: white;
+    height: 100%;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 3px;
-    background-color: #3f4855;
-    .profile-picture-nav {
-      width: 50%;
-      border-radius: 100px;
-      margin: 0px 15px 0px 6px;
-      transition: 0.3s;
-      cursor: pointer;
-      box-shadow: 6px 9px 11px 0px rgba(0, 0, 0, 0.51);
-      &:hover {
-        box-shadow: none;
-      }
-    }
+    margin: 0;
+
     a {
-      margin-left: 15px;
       cursor: pointer;
       color: $teal;
       transition: 0.5 ease-in-out;
-
+      height: 90px;
       &:hover {
         color: $dark-teal;
       }
+    }
+  }
+
+  .profile-picture-nav {
+    width: auto !important;
+    height: 90px;
+    margin: 0;
+    transition: 0.3s;
+    border: 1px solid black;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 9px;
+
+    &:hover {
+      border: 1px solid rgb(116, 116, 116);
+      box-shadow: none;
     }
   }
 
@@ -48,8 +53,9 @@
 
   .left-side {
     display: flex;
+    height: 100%;
     background-color: #dfe7f2;
-    padding: 39px 60% 30px 30px;
+    padding: 48px 60% 30px 30px;
   }
 
   .chinese-symbol {
