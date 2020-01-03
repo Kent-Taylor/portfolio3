@@ -25,7 +25,6 @@
 //about page styles
 .content-page-wrapper {
   background-color: #f5f6f7;
-
 }
 
 .content-page-wrapper > .left-column {
@@ -35,4 +34,56 @@
 .content-page-wrapper > .right-column p {
   font-size: 20px;
   text-align: center;
+}
+
+// Media Queries
+@media (max-width: 785px) {
+  .nav-wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-wrapper > .left-side {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+    margin-left: 17px;
+    margin-bottom: 20px;
+
+    a {
+      margin: 0;
+    }
+  }
+  .nav-wrapper > .right-side {
+    flex-direction: column;
+    height: 15px;
+    margin-bottom: 7px;
+    p {
+      margin: 0;
+    }
+  }
+  .nav-wrapper > .nav-link-wrapper > .nav-link-active {
+    color: #505b6a;
+    font-size: 1.5em;
+    border-bottom: 1px solid transparent;
+    letter-spacing: 3px;
+    margin: 10px;
+
+    &:active {
+      border-bottom: 1px solid transparent;
+      margin: 10px;
+    }
+  }
+  .nav-wrapper .profile-picture-nav {
+    display: none;
+  }
+  .portfolio-items-wrapper {
+    display: none;
+    display: flex;
+  }
+
+  .logo-wrapper {
+    display: none;
+  }
 }
