@@ -9,6 +9,7 @@ export default function() {
         width="60%"
         height="100%"
         scrolling="yes"
+        margin="15px"
         frameborder="0"
       ></iframe>
     </div>

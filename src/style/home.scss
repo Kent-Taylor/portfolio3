@@ -42,6 +42,8 @@
 @media (max-width: 785px) {
   .content-container {
     text-align: center;
+
+    // media querires for navigation wrapper
   }
   .nav-wrapper {
     flex-direction: column;
@@ -105,6 +107,10 @@
     display: flex;
     color: white;
 
+    p {
+      margin-top: 42px;
+
+    }
     a {
       color: rgb(187, 184, 184);
     }
