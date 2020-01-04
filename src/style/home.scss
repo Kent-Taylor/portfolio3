@@ -107,12 +107,12 @@
     display: flex;
     color: white;
 
-    p {
-      margin-top: 42px;
-
-    }
     a {
       color: rgb(187, 184, 184);
     }
+  }
+
+  .about-container > .content-page-wrapper > .right-column {
+    margin-top: 42px;
   }
 }
