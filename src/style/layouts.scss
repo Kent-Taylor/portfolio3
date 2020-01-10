@@ -11,7 +11,7 @@
     flex-direction: column;
     padding: 100px;
 
-    .contact-bullet-points {
+    .bullet-points {
       display: grid;
       grid-template-columns: 1fr;
       grid-gap: 21px;
@@ -19,16 +19,6 @@
       .bullet-point-group {
         display: flex;
         align-items: center;
-
-        .icon {
-          font-size: 2em;
-          color: #505b6a;
-          transition: ease-in-out 0.3s;
-
-          &:hover {
-            color: black;
-          }
-        }
 
         .text {
           font-size: 1.5em;

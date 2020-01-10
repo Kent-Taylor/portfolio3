@@ -7,6 +7,7 @@ import {
   faPlusCircle,
   faPhone,
   faIdCard,
+  faLink,
   faEnvelope,
   
   faMapMarkedAlt,
@@ -20,6 +21,7 @@ const Icons = () => {
     faSignOutAlt,
     faEdit,
     faIdCard,
+    faLink,
     faSpinner,
     faCircleNotch,
     faPlusCircle,
