@@ -16,7 +16,40 @@ export default function() {
         }}
       />
       <div className="right-column">
+        <h1>Contact</h1>
         <div className="contact-bullet-points">
+          <div className="bullet-point-group">
+            <a
+              href="https://www.linkedin.com/in/kent-taylor-129282168/"
+              target="_blank"
+              className="icon"
+            >
+              <FontAwesomeIcon icon="id-card" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kent-taylor-129282168/"
+              target="_blank"
+              className="text"
+            >
+              Linkedin
+            </a>
+          </div>
+          <div className="bullet-point-group">
+            <a
+              href="https://github.com/107124"
+              className="icon"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon="link" />
+            </a>
+            <a
+              href="https://github.com/107124"
+              className="text"
+              target="_blank"
+            >
+              Github
+            </a>
+          </div>
           <div className="bullet-point-group">
             <div className="icon">
               <FontAwesomeIcon icon="phone" />
@@ -37,37 +70,6 @@ export default function() {
             </div>
 
             <div className="text">Lehi, UT</div>
-          </div>
-          <div className="bullet-point-group">
-            <a
-              href="https://www.linkedin.com/in/kent-taylor-129282168/"
-              target="_blank"
-              className="icon"
-            >
-              <FontAwesomeIcon icon="id-card" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/kent-taylor-129282168/"
-              target="_blank"
-              className="text"
-            >
-              Linkedin
-            </a>
-          </div>
-          <div className="bullet-point-group">
-            <a
-              href="https://www.linkedin.com/in/kent-taylor-129282168/"
-              className="icon"
-              target="_blank"
-            >
-              <FontAwesomeIcon icon="link" />
-            </a>
-            <a
-              href="https://github.com/107124"
-              className="text"
-            >
-              Github
-            </a>
           </div>
         </div>
         {/* map */}
