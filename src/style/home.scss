@@ -1,6 +1,7 @@
 .homepage-wrapper {
   display: grid;
   grid-template-columns: 1fr;
+  width: 100vw;
 
   .filter-links {
     display: flex;
@@ -80,6 +81,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .nav-wrapper > .left-side {
     flex-direction: column;

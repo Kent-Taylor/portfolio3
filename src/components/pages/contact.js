@@ -16,7 +16,7 @@ export default function() {
         }}
       />
       <div className="right-column">
-        <h1>Contact</h1>
+        {/* <h1>Contact</h1> */}
         <div className="contact-bullet-points">
           <div className="bullet-point-group">
             <a
@@ -65,11 +65,20 @@ export default function() {
             <div className="text">kredfox4@gmail.com</div>
           </div>
           <div className="bullet-point-group">
-            <div className="icon">
+            <a
+              href="https://www.google.com/maps/place/Lehi,+UT/@40.413362,-111.868795,14z/data=!4m5!3m4!1s0x874d7fedd81a1b69:0xfd6fac81600d61c9!8m2!3d40.3916172!4d-111.8507662?hl=en"
+              target="_blank"
+              className="icon"
+            >
               <FontAwesomeIcon icon="map-marked-alt" />
-            </div>
-
-            <div className="text">Lehi, UT</div>
+            </a>
+            <a
+              href="https://www.google.com/maps/place/Lehi,+UT/@40.413362,-111.868795,14z/data=!4m5!3m4!1s0x874d7fedd81a1b69:0xfd6fac81600d61c9!8m2!3d40.3916172!4d-111.8507662?hl=en"
+              target="_blank"
+              className="text"
+            >
+              Lehi, UT
+            </a>
           </div>
         </div>
         {/* map */}
