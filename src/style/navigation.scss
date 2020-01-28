@@ -23,27 +23,34 @@
       color: $teal;
       transition: 0.5 ease-in-out;
       height: 90px;
+      text-decoration: none;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      padding-right: 42px;
+      padding-top: 10px;
+
       &:hover {
         color: $dark-teal;
       }
     }
   }
 
-  .profile-picture-nav {
-    width: auto !important;
-    height: 90px;
-    margin: 0;
-    transition: 0.3s;
-    border: 1px solid black;
-    border-radius: 1px;
-    cursor: pointer;
-    margin-right: 9px;
+  // .profile-picture-nav {
+  //   width: auto !important;
+  //   height: 90px;
+  //   margin: 0;
+  //   transition: 0.3s;
+  //   border: 1px solid black;
+  //   border-radius: 1px;
+  //   cursor: pointer;
+  //   margin-right: 9px;
 
-    &:hover {
-      border: 1px solid rgb(116, 116, 116);
-      box-shadow: none;
-    }
-  }
+  //   &:hover {
+  //     border: 1px solid rgb(116, 116, 116);
+  //     box-shadow: none;
+  //   }
+  // }
 
   .portfolio-text {
     color: blue;
@@ -55,7 +62,7 @@
     display: flex;
     height: 100%;
     background-color: #dfe7f2;
-    padding: 48px 60% 30px 30px;
+    padding: 48px 5% 30px 30px;
   }
 
   .chinese-symbol {

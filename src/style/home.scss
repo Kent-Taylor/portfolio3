@@ -72,6 +72,7 @@
 
 // Media Queries
 @media (max-width: 785px) {
+
   .content-container {
     text-align: center;
 
@@ -82,18 +83,29 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    background-color: black;
   }
   .nav-wrapper > .left-side {
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
     padding: 0px;
     margin-left: 17px;
     margin-bottom: 20px;
+    background-color: black;
 
     a {
       margin: 0;
+      color: white;
+      // background-color: #505b6a;
+      // color: white;
+      // width: 100px;
+      // border: 1px solid white;
     }
+  }
+
+  .nav-link-active {
+    color: red;
   }
   .nav-wrapper > .right-side {
     flex-direction: column;
@@ -101,6 +113,12 @@
     margin-bottom: 7px;
     p {
       margin: 0;
+    }
+
+    a {
+      color: white;
+      margin: 0px;
+      padding: 0px;
     }
   }
   .nav-wrapper > .nav-link-wrapper > .nav-link-active {
