@@ -29,6 +29,7 @@
       align-items: center;
       padding-right: 42px;
       padding-top: 10px;
+      transition: ease-in-out 0.3s;
 
       &:hover {
         color: $dark-teal;
