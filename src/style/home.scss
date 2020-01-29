@@ -72,7 +72,13 @@
 
 // Media Queries
 @media (max-width: 785px) {
-
+  // portfolio item description from portfolio-detail.scss
+  .portfolio-detail-wrapper .portfolio-detail-description-wrapper .description {
+    width: 700px;
+    font-size: 24px !important;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+}
   .content-container {
     text-align: center;
 
