@@ -78,7 +78,7 @@
     font-size: 24px !important;
     padding: 0px 15px;
     margin-bottom: 50px;
-}
+  }
   .content-container {
     text-align: center;
 
@@ -88,7 +88,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     background-color: black;
   }
   .nav-wrapper > .left-side {
@@ -155,7 +155,6 @@
   // contact page media queries
   .content-page-wrapper .right-column {
     margin-bottom: 400px;
-    padding: 0px 55px;
   }
 
   //about page media queries
