@@ -1,9 +1,11 @@
 body {
-    margin: 0px;
-    font-family: "Titillium Web", sans-serif;
-  }
-  
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+  margin: 0px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow-x: hidden; //horizontal
+  overflow-y: scroll; //vertical
+}
