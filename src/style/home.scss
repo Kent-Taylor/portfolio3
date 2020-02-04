@@ -72,6 +72,15 @@
 
 // Media Queries
 @media (max-width: 785px) {
+  .content-page-wrapper {
+    background-color: #f5f6f7;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+  }
   // portfolio item description from portfolio-detail.scss
   .portfolio-detail-wrapper .portfolio-detail-description-wrapper .description {
     width: 700px;

@@ -82,7 +82,7 @@ export default function() {
           </div>
         </div>
         {/* map */}
-        <Iframe
+        {/* <Iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14119.812765559083!2d-111.8930929074513!3d40.43006299647508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d7fedd81a1b69%3A0xfd6fac81600d61c9!2sLehi%2C%20UT!5e0!3m2!1sen!2sus!4v1578175872438!5m2!1sen!2sus"
           width="1000"
           height="350"
@@ -90,7 +90,7 @@ export default function() {
           style="border:0;"
           allowfullscreen=""
           className="map"
-        ></Iframe>
+        ></Iframe> */}
       </div>
     </div>
   );
