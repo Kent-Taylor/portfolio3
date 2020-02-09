@@ -66,19 +66,20 @@ export default function() {
           </div>
           <div className="bullet-point-group">
             <a
-              href="https://www.google.com/maps/place/Lehi,+UT/@40.413362,-111.868795,14z/data=!4m5!3m4!1s0x874d7fedd81a1b69:0xfd6fac81600d61c9!8m2!3d40.3916172!4d-111.8507662?hl=en"
+              href="https://www.google.com/maps/place/Knoxville,+TN/@35.9586922,-84.2052648,10z/data=!3m1!4b1!4m5!3m4!1s0x885c162246ce42a9:0x7bea92dac4f534c5!8m2!3d35.9606384!4d-83.9207392?hl=en"
               target="_blank"
               className="icon"
             >
               <FontAwesomeIcon icon="map-marked-alt" />
             </a>
             <a
-              href="https://www.google.com/maps/place/Lehi,+UT/@40.413362,-111.868795,14z/data=!4m5!3m4!1s0x874d7fedd81a1b69:0xfd6fac81600d61c9!8m2!3d40.3916172!4d-111.8507662?hl=en"
+              href="https://www.google.com/maps/place/Knoxville,+TN/@35.9586922,-84.2052648,10z/data=!3m1!4b1!4m5!3m4!1s0x885c162246ce42a9:0x7bea92dac4f534c5!8m2!3d35.9606384!4d-83.9207392?hl=en"
               target="_blank"
               className="text"
             >
-              Lehi, UT
+              Relocating to: Knoxville, TN
             </a>
+
           </div>
         </div>
         {/* map */}
