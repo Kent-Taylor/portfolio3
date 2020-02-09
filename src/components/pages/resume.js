@@ -5,7 +5,7 @@ export default function() {
     <div class="pdf-container">
       <iframe
         src="https://www.keepandshare.com/doc30/109479/resume-12-6-19-pdf-82k?da=y&ifr=y"
-        width="60%"
+        width="100%"
         height="100%"
         scrolling="yes"
         margin="15px"
