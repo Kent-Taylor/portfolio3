@@ -30,15 +30,16 @@
   
       .site-link {
         padding: 15px;
-        background-color: #3f4855;
-        border-radius: 3px;
+        background-color: white;
+        border-radius: 33px;
+        border: 1px solid black;
         text-decoration: none;
-        color: white;
+        color: #3f4855;
         transition: 0.3s ease-in-out;
         font-size: 1.2em;
   
         &:hover {
-          background-color: #505b6a;
+          background-color: rgba(255, 255, 255, 0.712);
         }
       }
     }
