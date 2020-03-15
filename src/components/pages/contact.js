@@ -4,7 +4,9 @@ import profile_pic from "../../../backgrounds/login.jpg";
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function() {
+import BlueSocial from "../../../logos/blue-social.png";
+
+export default function () {
   return (
     <div className="content-page-wrapper">
       <div
@@ -18,6 +20,25 @@ export default function() {
       <div className="right-column">
         {/* <h1>Contact</h1> */}
         <div className="contact-bullet-points">
+          <a href="https://www.profiles.blue/kent-1" target="_blank" className="blue-social">
+            <img src={BlueSocial} alt="Blue Social" />
+          </a>
+          <div className="bullet-point-group">
+            <a
+              href="https://www.profiles.blue/kent-1"
+              target="_blank"
+              className="icon"
+            >
+              <FontAwesomeIcon icon="id-card" />
+            </a>
+            <a
+              href="https://www.profiles.blue/kent-1"
+              target="_blank"
+              className="text"
+            >
+              Blue Social
+            </a>
+          </div>
           <div className="bullet-point-group">
             <a
               href="https://www.linkedin.com/in/kent-taylor-129282168/"
