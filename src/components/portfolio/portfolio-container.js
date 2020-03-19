@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
+
 import PortfolioItem from "./portfolio-item";
 
 export default class PortfolioContainer extends Component {
@@ -12,7 +13,7 @@ export default class PortfolioContainer extends Component {
       isLoading: false,
       data: []
     };
-    
+
     this.handleFilter = this.handleFilter.bind(this);
   }
 
@@ -88,7 +89,11 @@ export default class PortfolioContainer extends Component {
             All
           </button>
         </div>
-        <div className="portfolio-items-wrapper">{this.portfolioItems()}</div>
+        <div className="portfolio-items-wrapper">
+
+          {this.portfolioItems()}
+
+        </div>
       </div>
     );
   }

@@ -69,7 +69,7 @@ class Blog extends Component {
 
   onScroll() {
     if (
-      this.state.isLoading ||
+      this.state.ding ||
       this.state.blogItems.length === this.state.totalCount
     ) {
       return;
@@ -91,7 +91,7 @@ class Blog extends Component {
     axios
       .get(
         `https://kenttaylor.devcamp.space/portfolio/portfolio_blogs?page=${
-          this.state.currentPage
+        this.state.currentPage
         }`,
         {
           withCredentials: true
