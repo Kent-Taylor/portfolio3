@@ -11,5 +11,5 @@ app.listen(port);
 console.log("server started");
 
 new HtmlWebpackPlugin({
-  favicon: "../logos/spray-bottle.png"
+  favicon: "../static/favicon.ico"
 })
