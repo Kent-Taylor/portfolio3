@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
+import Tilt from "react-parallax-tilt";
+
 
 
 import PortfolioItem from "./portfolio-item";
@@ -89,12 +91,31 @@ export default class PortfolioContainer extends Component {
             All
           </button>
         </div>
+        <div className="portfolio-home-header">
+          <div className="header-container">
+            <Tilt
+              className="parallax-effect-swirly"
+              tiltEnable={true}
+              scale={1}
+              perspective={100}
+              glareEnable={false}
+              transitionSpeed={1500}
+              glareMaxOpacity={0.8}
+              glareColor="#ffffff"
+              glarePosition="bottom"
+            >
+              <div class="hoja">
+                <p className="myName">Kent Taylor</p>
+              </div>
+            </Tilt>
+          </div>
+        </div >
         <div className="portfolio-items-wrapper">
 
           {this.portfolioItems()}
 
         </div>
-      </div>
+      </div >
     );
   }
 }
