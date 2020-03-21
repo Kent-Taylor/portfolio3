@@ -432,6 +432,7 @@ html {
     // transform-origin: center center;
     display: none;
   }
+
   h3 {
   // display: none;
   color: white;
@@ -453,7 +454,7 @@ html {
     margin: 0px;
   
     img {
-      width: 400px;
+      width: 90%;
       margin-top: 65px;
     }
   }
@@ -491,8 +492,7 @@ html {
       transform: translateZ(60px);
   
       h3 {
-        color: white;
-        margin-top: 0px;
+        display: none;
       }
     }
   }
@@ -574,6 +574,11 @@ html {
   // home page media queries
   .portfolio-items-wrapper {
     grid-template-columns: 1fr;
+    width: 98%;
+  }
+
+  .portfolio-item-wrapper {
+    width: 100%;
   }
 
   .logo-wrapper {
