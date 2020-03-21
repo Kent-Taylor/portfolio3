@@ -507,14 +507,15 @@ html {
   margin-top: 200px;
 }
 
-  .content-page-wrapper {
-    background-color: #f5f6f7;
-    height: 100vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.content-page-wrapper {
+  background-color: transparent;
+  height: 100vh;
+  width: auto;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   // portfolio item description from portfolio-detail.scss
   .portfolio-detail-wrapper .portfolio-detail-description-wrapper .description {
     width: 700px;
