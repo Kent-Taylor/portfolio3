@@ -79,6 +79,7 @@
     "react-redux": "5.0.6",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.3.1",
+    "react-tagcloud": "^2.0.0",
     "react-truncate": "^2.4.0",
     "redux": "^3.7.2",
     "sass-loader": "^7.3.1",

@@ -17,6 +17,7 @@ export default function () {
           }}
         />
         <div className="right-column">
+
           <Tilt
             tiltEnable={true}
             scale={1}

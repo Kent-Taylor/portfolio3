@@ -70,7 +70,7 @@ const NavigationComponent = props => {
       </div>
       <div className="right-side">
         <Link to="/about-me">
-          Kent Taylor
+          {/* Kent Taylor */}
         </Link>
 
         {props.loggedInStatus === "LOGGED_IN" ? (

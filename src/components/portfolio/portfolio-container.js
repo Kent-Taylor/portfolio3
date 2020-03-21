@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import axios from "axios";
 import Tilt from "react-parallax-tilt";
-
+import wordArt from "../../../backgrounds/wordArtPortrait.png";
 
 
 import PortfolioItem from "./portfolio-item";
+
 
 export default class PortfolioContainer extends Component {
   constructor() {
@@ -92,19 +93,24 @@ export default class PortfolioContainer extends Component {
           </button>
         </div>
         <div className="portfolio-home-header">
+          <img src={wordArt} alt="" />
+          <div className="css-typing">
+            <p>Hi, I'm Kent and i'm a Web Developer. I create</p>
+            <p>clean, powerful functions with simple designs.</p>
+            <p>Core Competency: technology for problem solving.</p>
+          </div>
           <div className="header-container">
             <Tilt
               className="parallax-effect-swirly"
-              tiltEnable={true}
+              tiltEnable={false}
               scale={1}
               perspective={100}
               glareEnable={false}
               transitionSpeed={1500}
               glareMaxOpacity={0.8}
               glareColor="#ffffff"
-              glarePosition="bottom"
             >
-              <div class="hoja">
+              <div className="hoja">
                 <p className="myName">Kent Taylor</p>
               </div>
             </Tilt>
