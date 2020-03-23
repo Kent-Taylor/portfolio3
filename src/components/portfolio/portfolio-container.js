@@ -97,7 +97,7 @@ export default class PortfolioContainer extends Component {
           <div className="css-typing">
             <p>Hi, I'm Kent and i'm a Web Developer. I create</p>
             <p>clean, powerful functions with simple designs.</p>
-            <p>Core Competency: technology for problem solving.</p>
+            <p>Core Competency: Technology for problem solving.</p>
           </div>
           <div className="header-container">
             <Tilt

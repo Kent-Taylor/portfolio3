@@ -2,6 +2,7 @@
     @include base-grid();
     grid-template-columns: 1fr;
     padding: 42px;
+    margin-top: 72px;
 
     @include input-element();
     input {
