@@ -533,7 +533,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100px;
+    height: 70px;
 
   }
   .nav-wrapper > .left-side {
@@ -541,6 +541,8 @@ html {
     text-align: center;
     justify-content: center;
     padding: 0px;
+    height: 70px;
+    margin-top: 50px;
 
 
     a {
@@ -564,6 +566,7 @@ html {
       padding: 0px;
     }
   }
+
   .nav-wrapper > .nav-link-wrapper > .nav-link-active {
     color: #057cd9;
     border-bottom: 1px solid transparent;
@@ -606,5 +609,13 @@ html {
 
   .about-container > .content-page-wrapper > .right-column {
     margin-top: 220px;
+  }
+
+  .header-container {
+    margin: 0px;
+  }
+
+  .hoja {
+    display: none;
   }
 }
