@@ -63,7 +63,7 @@ export default function () {
                 target="_blank"
                 className="icon"
               >
-                <FontAwesomeIcon icon="id-card" />
+                <FontAwesomeIcon icon="users" />
               </a>
               <a
                 href="https://www.linkedin.com/in/kent-taylor-129282168/"
