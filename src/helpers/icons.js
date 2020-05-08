@@ -9,6 +9,7 @@ import {
   faIdCard,
   faLink,
   faEnvelope,
+  faUsers,
   
   faMapMarkedAlt,
   faLock
@@ -23,6 +24,7 @@ const Icons = () => {
     faIdCard,
     faLink,
     faSpinner,
+    faUsers,
     faCircleNotch,
     faPlusCircle,
     faPhone,
