@@ -8,7 +8,6 @@
   box-shadow: inset 0px 15px 33px 0px rgba(0, 0, 0, 0.75);
   padding: 42px;
   margin-top: 72px;
-  border-radius: 30px;;
 
   .blog-squares {
     background-color: transparent;
@@ -55,6 +54,8 @@
     text-indent: 20px;
     background-color: white;
     padding: 20px;
+  border-radius: 30px;
+
 
     a {
       text-decoration: none;
@@ -62,7 +63,7 @@
       transition: 0.3s ease-in-out;
 
       &:hover {
-        color: #057cd9;
+        color: #057dd98e;
       }
     }
 
