@@ -116,7 +116,7 @@ export default function () {
                 target="_blank"
                 className="text"
               >
-                Relocating to: Knoxville, TN
+                Knoxville, TN
             </a>
 
             </div>

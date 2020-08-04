@@ -5,6 +5,9 @@
 
   .portfolio-item-wrapper {
     position: relative;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: ease-in-out 0.3s;
 
     .portfolio-img-background {
       background-size: cover;
@@ -16,6 +19,12 @@
       width: 98%;
       border-radius: 30px;
       margin: 3px;
+
+    }
+
+    &:hover {
+      border: 3px solid #047cd9;
+      border-radius: 30px;
     }
 
     .img-text-wrapper {
@@ -29,16 +38,20 @@
       text-align: center;
       padding-left: 100px;
       padding-right: 100px;
-      padding-top: 40px;
+      padding-top: 25px;
+      font-size: 1.2em;
+
 
       .subtitle {
         transition: 1s ease-in-out;
         color: transparent;
+        font-size: 1.2em;
       }
     }
     .img-text-wrapper:hover .subtitle {
-      color: $teal;
+      color: #047cd9;
       font-weight: 400;
+      font-size: 1.2em;
       justify-content: center;
     }
 

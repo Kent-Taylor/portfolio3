@@ -38,12 +38,13 @@
           &:hover {
             color: #505b6a;
           }
-
-          &:active {
-            color: black;
-          }
         }
       }
     }
   }
+}
+
+
+.active {
+  color: black;
 }
