@@ -12,6 +12,8 @@ const BlogItem = props => {
     featured_image_url
   } = props.blogItem;
 
+
+
   return (
     <div className="blog-squares">
       <Link to={`/b/${id}`}>
