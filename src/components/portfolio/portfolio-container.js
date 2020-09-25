@@ -95,7 +95,8 @@ export default class PortfolioContainer extends Component {
         <div className="portfolio-home-header">
           <img src={wordArt} alt="" />
           <div className="css-typing">
-            <p>Hi, I'm Kent and i'm a Web Developer. I create</p>
+            <p>Hi, I'm Kent and i'm a Web and Mobile Developer</p>
+            <p>I love to create sites and apps that show</p>
             <p>clean, powerful functions with simple designs.</p>
             <p>Core Competency: Technology for problem solving.</p>
           </div>
