@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive&display=swap');
 
 html {
-  background-image: url("../../backgrounds/textured1.png");
+  background-color: rgb(2, 2, 25);
 }
 
 .homepage-wrapper {
@@ -11,12 +11,10 @@ html {
 
   .filter-links {
     display: none;
-    // display: flex;
-    // justify-content: space-around;
 
     .btn {
       width: 100%;
-      background-color: #505b6a;
+      background-color: #4c5561;
       transition: ease-in-out 0.3s;
 
       &:hover {
@@ -29,6 +27,7 @@ html {
     }
   }
 }
+
 
 .portfolio-home-header{
   display: grid;
@@ -598,7 +597,8 @@ html {
 
   //about page media queries
   .about-container > .content-page-wrapper {
-    background-image: url('../../backgrounds/textured1.png');
+    background-color: rgb(2, 2, 25);
+
     display: flex;
     color: white;
 
