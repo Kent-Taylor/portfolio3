@@ -8,6 +8,7 @@
   box-shadow: inset 0px 15px 33px 0px rgba(0, 0, 0, 0.75);
   padding: 42px;
   margin-top: 72px;
+  margin-bottom: 20px;
 
   .blog-squares {
     background-color: transparent;
@@ -31,7 +32,6 @@
   .new-blog-link {
     position: fixed;
     right: 0;
-    background-color: #057cd9;
     bottom: 0;
 
     a {
@@ -55,8 +55,7 @@
     width: 75vw;
     height: auto;
     text-indent: 20px;
-
-
+    color: grey;
 
     a {
       text-decoration: none;
@@ -79,11 +78,16 @@
     .featured-image-wrapper {
       img {
         margin: 15px 0px;
-        width: 100%;
+        width: 95%;
         height: 350px;
         border-radius: 5px;
         object-fit: cover;
       }
+    }
+
+    .content {
+      background-color: white;
+      padding: 20px;
     }
   }
 }
