@@ -6,7 +6,7 @@ html {
 
 .homepage-wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 2fr;
   width: 100%;
 
   .filter-links {
@@ -588,9 +588,14 @@ html {
   }
 
   // home page media queries
-  .portfolio-items-wrapper {
+  .portfolio-item-wrapper {
     grid-template-columns: 1fr;
     width: 98%;
+
+    &:hover {
+      border: 3px solid transparent !important;
+      border-radius: 30px ;
+    }
   }
 
   .portfolio-item-wrapper {
