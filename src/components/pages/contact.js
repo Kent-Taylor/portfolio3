@@ -47,7 +47,7 @@ export default function () {
                 target="_blank"
                 className="icon"
               >
-                <FontAwesomeIcon icon="id-card" />
+                 
               </a>
               <a
                 href="https://www.profiles.blue/kent-1"

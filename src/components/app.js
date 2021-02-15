@@ -8,6 +8,7 @@ import About from "./pages/about";
 import Resume from "./pages/resume";
 import Contact from "./pages/contact";
 import Blog from "./pages/blog";
+import Videos from "./pages/videos";
 import BlogDetail from "./pages/blog-detail";
 import PortfolioManager from "./pages/portfolio-manager";
 import PortfolioDetail from "./portfolio/portfolio-detail";
@@ -115,6 +116,7 @@ export default class App extends Component {
               <Route path="/about-me" component={About} />
               <Route path="/contact" component={Contact} />
               <Route path="/resume" component={Resume} />
+              <Route path="/videos" component={Videos} />
 
               <Route
                 path="/blog"
