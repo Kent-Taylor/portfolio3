@@ -47,7 +47,7 @@ export default function () {
                 target="_blank"
                 className="icon"
               >
-                 
+
               </a>
               <a
                 href="https://www.profiles.blue/kent-1"
@@ -89,13 +89,13 @@ export default function () {
                 Github
             </a>
             </div>
-            <div className="bullet-point-group">
+            {/* <div className="bullet-point-group">
               <div className="icon">
                 <FontAwesomeIcon icon="phone" />
               </div>
 
               <div className="text">801-427-7833</div>
-            </div>
+            </div> */}
             <div className="bullet-point-group">
               <div className="icon">
                 <FontAwesomeIcon icon="envelope" />

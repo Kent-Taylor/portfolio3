@@ -220,24 +220,61 @@ html {
   margin-left: 75px;
 }
 
-.videos-container {
-  color: white;
+.videos-page-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 142px;
+  margin-top: 72px;
 
-  .video {
-    padding: 15px;
+  .youtube-link-container {
+    width: 100vw;
+    height: 170px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700;
-    // width: auto;
-    border: 2px solid white;
-    padding-bottom: 75px;
+    background-color: #6d1b1b;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1.3em;
+      background-color: red;
+      padding: 15px;
+      border-radius: 15px;
+      margin: 15px;
+      transition: ease-in-out 0.3s;
+
+      &:hover {
+        background-color: rgba(255, 0, 0, 0.671);
+      }
+
+    }
   }
+
+
+  .videos-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+
+  }
+}
+
+.video {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700;
+  // width: auto;
+  border: 2px solid white;
+  padding-bottom: 75px;
 }
 
 
@@ -431,6 +468,35 @@ html {
 
 // Media Queries
 @media (max-width: 785px) {
+  .videos-page-container {
+    align-items: inherit;
+
+  .youtube-link-container {
+    width: 100vw;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d1b1b;
+  }
+
+  .videos-container {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+
+    .video {
+      width: 350px !important;
+      height: 200px !important;
+      border: none;
+    }
+
+  }
+}
 
   .img-text-wrapper:hover .subtitle {
     display: none;
@@ -578,6 +644,7 @@ html {
     a {
       padding: 0px;
       margin: -3px;
+      font-size: 14px;
     }
   }
 
@@ -602,6 +669,8 @@ html {
     border-bottom: 1px solid transparent;
     letter-spacing: 3px;
     margin: 10px;
+
+
   }
   .nav-wrapper .profile-picture-nav {
     display: none;
