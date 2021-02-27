@@ -16,6 +16,23 @@ export default function () {
             <div className="videos-container">
 
                 <ReactPlayer className="video"
+                    // Deep dive into lists python
+                    url="https://www.youtube.com/watch?v=2ygW1R5ylOk"
+                />
+                <ReactPlayer className="video"
+                    // Manual exponents Tutorial
+                    url="https://www.youtube.com/watch?v=B4q659qCZuE"
+                />
+                <ReactPlayer className="video"
+                    // Reverse a sentence javascript Tutorial
+                    url="https://www.youtube.com/watch?v=Sk5Ugofo0yg&t=32s"
+                />
+                <ReactPlayer className="video"
+                    // Speech Recognition Tutorial
+                    url="https://www.youtube.com/watch?v=2PUZrVrL37g&t=20s"
+                />
+
+                <ReactPlayer className="video"
                     // Guess the Number Game Tutorial
                     url="https://www.youtube.com/watch?v=DO4-oHkTeFE"
                 />
