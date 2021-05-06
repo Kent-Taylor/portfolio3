@@ -69,7 +69,7 @@
     "postcss-loader": "^2.1.6",
     "react": "16.8.0",
     "react-dom": "16.8.0",
-    "react-draft-wysiwyg": "^1.14.5",
+    "react-draft-wysiwyg": "^1.14.6",
     "react-dropzone-component": "^3.2.0",
     "react-html-parser": "^2.0.2",
     "react-iframe": "^1.8.0",
