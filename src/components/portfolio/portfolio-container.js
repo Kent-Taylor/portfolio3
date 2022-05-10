@@ -94,11 +94,27 @@ export default class PortfolioContainer extends Component {
         </div>
         <div className="portfolio-home-header">
           <img src={wordArt} alt="" />
-          <div className="css-typing">
+          {/* <div className="css-typing">
+
+<p>Kent is a Lead Instructor for ThriveDx and Varsity Tutors!</p>
+<p>He is certified in Information Technology, Full Stack Development,</p>
+<p>Business Web Design and Computer Technology. He has been</p>
+<p>teaching since 2020 at various boot camps and building</p>
+<p>websites and mobile applications from small companies to</p>
+<p>bigger companies such as 1800Contacts. Kent is from</p>
+<p>TN where he lives with his sweet wife, two</p>
+<p>little girls and a puppy (of whom is the</p>
+<p>best little cuddle-bug).</p>
+</div> */}
+          {/* <div className="css-typing">
             <p>Hi, I'm Kent and i'm a Web and Mobile Developer</p>
             <p>I love to create sites and apps that show</p>
             <p>clean, powerful functions with simple designs.</p>
             <p>Core Competency: Technology for problem solving.</p>
+          </div> */}
+
+          <div className="temp-header">
+          Kent is a Lead Instructor for ThriveDx and Varsity Tutors! He is certified in Information Technology, Full Stack Development, Business Web Design and Computer Technology. He has been teaching since 2020 at various boot camps and building websites and mobile applications from small companies to bigger companies such as 1800Contacts. Kent is from Knoxville TN where he lives with his sweet wife, two little girls and a puppy (of whom is the best little cuddle-bug).
           </div>
           <div className="header-container">
             <Tilt

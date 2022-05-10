@@ -29,11 +29,7 @@ export default function () {
             glarePosition="bottom"
           >
             <p>
-              "I’ve always had a passion for technology and creating things. Front
-              end design, backend development- I create clean, powerful functions
-              with simple designs. I am passionate about user experience and
-              proficient at UI. My core competency is utilizing technology for
-              problem solving."
+              "Kent is a Lead Instructor for ThriveDx and Varsity Tutors! He is certified in Information Technology, Full Stack Development, Business Web Design and Computer Technology. He has been teaching since 2020 at various boot camps and building websites and mobile applications from small companies to bigger companies such as 1800Contacts. Kent is from Knoxville TN where he lives with his sweet wife, two little girls and a puppy (of whom is the best little cuddle-bug)."
             <p>-Kent</p>
             </p>
           </Tilt>

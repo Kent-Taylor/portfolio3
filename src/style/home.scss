@@ -31,7 +31,10 @@ html {
 
 .portfolio-home-header{
   display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3em;
   gap: 10px;
   background-color: transparent;
   height: 600px;
@@ -43,141 +46,147 @@ html {
   }
 }
 
-.css-typing {
-  margin-top: 22%;
+.temp-header {
   color: white;
-}
-
-.css-typing p {
-  border-right: .15em solid #0ff100;
-  font-family: "Courier";
-  font-size: 14px;
-  white-space: nowrap;
-  overflow: hidden;
-  font-size: 2em;
-  text-align: left;
-
-}
-.css-typing p:nth-child(1) {
+  margin: 42px;
   width: 100%;
-  -webkit-animation: type 2s steps(40, end);
-  animation: type 2s steps(40, end);
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
 }
 
-.css-typing p:nth-child(2) {
-  width: 100%;
-  opacity: 0;
-  -webkit-animation: type2 2s steps(40, end);
-  animation: type2 2s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
+// .css-typing {
+//   margin-top: 22%;
+//   color: white;
+// }
 
-.css-typing p:nth-child(3) {
-  width: 100%;
-  opacity: 0;
-  -webkit-animation: type2 2s steps(20, end);
-  animation: type2 2s steps(20, end);
-  -webkit-animation-delay: 5s;
-  animation-delay: 4.1s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
+// .css-typing p {
+//   border-right: .15em solid #0ff100;
+//   font-family: "Courier";
+//   font-size: 14px;
+//   white-space: nowrap;
+//   overflow: hidden;
+//   font-size: 2em;
+//   text-align: left;
 
-.css-typing p:nth-child(4) {
-  width: 100%;
-  opacity: 0;
-  -webkit-animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 6.5s;
-  animation-delay: 6.5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
+// }
+// .css-typing p:nth-child(1) {
+//   width: 100%;
+//   -webkit-animation: type 2s steps(40, end);
+//   animation: type 2s steps(40, end);
+//   -webkit-animation-fill-mode: forwards;
+//   animation-fill-mode: forwards;
+// }
 
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid #0ff100;
-  }
-  100% {
-    border: none;
-  }
-}
+// .css-typing p:nth-child(2) {
+//   width: 100%;
+//   opacity: 0;
+//   -webkit-animation: type2 2s steps(40, end);
+//   animation: type2 2s steps(40, end);
+//   -webkit-animation-delay: 2s;
+//   animation-delay: 2s;
+//   -webkit-animation-fill-mode: forwards;
+//   animation-fill-mode: forwards;
+// }
 
-@-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-  99.9% {
-    border-right: .15em solid #0ff100;
-  }
-  100% {
-    border: none;
-  }
-}
+// .css-typing p:nth-child(3) {
+//   width: 100%;
+//   opacity: 0;
+//   -webkit-animation: type2 2s steps(20, end);
+//   animation: type2 2s steps(20, end);
+//   -webkit-animation-delay: 5s;
+//   animation-delay: 4.1s;
+//   -webkit-animation-fill-mode: forwards;
+//   animation-fill-mode: forwards;
+// }
 
-@keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid #0ff100;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
+// .css-typing p:nth-child(4) {
+//   width: 100%;
+//   opacity: 0;
+//   -webkit-animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+//   animation: type3 2s steps(20, end), blink .5s step-end infinite alternate;
+//   -webkit-animation-delay: 6.5s;
+//   animation-delay: 6.5s;
+//   -webkit-animation-fill-mode: forwards;
+//   animation-fill-mode: forwards;
+// }
 
-@-webkit-keyframes type2 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid #0ff100;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
+// @keyframes type {
+//   0% {
+//     width: 0;
+//   }
+//   99.9% {
+//     border-right: .15em solid #0ff100;
+//   }
+//   100% {
+//     border: none;
+//   }
+// }
 
-@keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+// @-webkit-keyframes type {
+//   0% {
+//     width: 0;
+//   }
+//   99.9% {
+//     border-right: .15em solid #0ff100;
+//   }
+//   100% {
+//     border: none;
+//   }
+// }
 
-@-webkit-keyframes type3 {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+// @keyframes type2 {
+//   0% {
+//     width: 0;
+//   }
+//   1% {
+//     opacity: 1;
+//   }
+//   99.9% {
+//     border-right: .15em solid #0ff100;
+//   }
+//   100% {
+//     opacity: 1;
+//     border: none;
+//   }
+// }
+
+// @-webkit-keyframes type2 {
+//   0% {
+//     width: 0;
+//   }
+//   1% {
+//     opacity: 1;
+//   }
+//   99.9% {
+//     border-right: .15em solid #0ff100;
+//   }
+//   100% {
+//     opacity: 1;
+//     border: none;
+//   }
+// }
+
+// @keyframes type3 {
+//   0% {
+//     width: 0;
+//   }
+//   1% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
+
+// @-webkit-keyframes type3 {
+//   0% {
+//     width: 0;
+//   }
+//   1% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 1;
+//   }
+// }
 
 @keyframes blink {
   50% {
