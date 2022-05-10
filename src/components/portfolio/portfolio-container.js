@@ -114,7 +114,7 @@ export default class PortfolioContainer extends Component {
           </div> */}
 
           <div className="temp-header">
-          Kent is a Lead Instructor for ThriveDx and Varsity Tutors! He is certified in Information Technology, Full Stack Development, Business Web Design and Computer Technology. He has been teaching since 2020 at various boot camps and building websites and mobile applications from small companies to bigger companies such as 1800Contacts. Kent is from Knoxville TN where he lives with his sweet wife, two little girls and a puppy (of whom is the best little cuddle-bug).
+            Kent is a Lead Instructor for ThriveDx and Varsity Tutors! He is certified in Information Technology, Full Stack Development, Business Web Design and Computer Technology. He has been teaching since 2020 at various boot camps and building websites and mobile applications from small companies to bigger companies such as 1800Contacts. Kent is from TN where he lives with his sweet wife, two little girls and a puppy (of whom is the best little cuddle-bug).
           </div>
           <div className="header-container">
             <Tilt
